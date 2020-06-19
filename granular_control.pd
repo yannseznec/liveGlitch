@@ -1,0 +1,18 @@
+#N canvas 567 416 656 342 10;
+#X obj 17 42 tgl 15 1 \$1_on_off empty \$1_on_off 17 7 0 10 -262144
+-1 -1 1 1;
+#X obj 19 79 hsl 128 15 0 1 0 1 \$1_offset_random empty \$1_offset_random
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 21 111 hsl 128 15 0 1 0 1 \$1_global_pan empty \$1_global_pan
+-2 -8 0 10 -262144 -1 -1 6400 1;
+#X obj 21 143 hsl 128 15 0 1 0 1 \$1_random_panning empty \$1_random_panning
+-2 -8 0 10 -262144 -1 -1 5700 1;
+#X obj 20 176 hsl 128 15 0 1 0 1 \$1_grainplay_chance empty \$1_grainplay_chance
+-2 -8 0 10 -262144 -1 -1 12500 1;
+#X obj 22 213 hsl 128 15 0 1 0 1 \$1_random_pitch empty \$1_random_pitch
+-2 -8 0 10 -262144 -1 -1 0 1;
+#X obj 17 238 bng 15 250 50 0 \$1_play_one_grain empty \$1_play_one_grain
+17 7 0 10 -262144 -1 -1;
+#X obj 156 53 vsl 15 128 0 1 0 1 \$1_volume empty \$1_volume 0 -9 0
+10 -262144 -1 -1 10600 1;
+#X coords 0 -1 1 1 200 250 1 10 10;

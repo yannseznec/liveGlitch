@@ -1,0 +1,12 @@
+#N canvas 468 251 747 447 10;
+#X obj 51 99 live_glitcher 1;
+#X text 87 81 input channel 1;
+#X obj 454 64 bela_control;
+#X obj 457 35 tgl 15 1 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X floatatom 53 362 5 0 0 0 - - -;
+#X obj 28 341 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X connect 0 0 4 0;
+#X connect 3 0 2 0;
+#X connect 5 0 4 0;
