@@ -1,4 +1,4 @@
-#N canvas 70 23 1408 828 10;
+#N canvas 0 23 1408 828 10;
 #X obj -16 438 samplerate~;
 #X obj -17 415 loadbang;
 #X obj -16 463 s samplerate;
@@ -191,7 +191,7 @@
 #X floatatom 632 368 5 0 0 0 - - -;
 #X msg 726 174 all \$1;
 #X obj 729 154 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 8653 1;
+-1 -1 796 1;
 #X obj 609 479 s 0-offset_random_rcv;
 #X obj 631 392 s 0-autoplay_speed_rcv;
 #X floatatom 639 320 5 0 0 0 - - -;
@@ -248,6 +248,7 @@
 #X obj 1011 194 % 5;
 #X obj 1046 213 sel 0;
 #X msg 646 155 vis 5 1;
+#X obj -3 202 granular_main 1;
 #X connect 0 0 2 0;
 #X connect 1 0 0 0;
 #X connect 14 0 15 0;
